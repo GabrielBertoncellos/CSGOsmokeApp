@@ -1,0 +1,17 @@
+@import url("ocss/header.css");
+@import url("ocss/main.css");
+@import url("ocss/contato.css");
+@import url("ocss/rodape.css");
+
+:root{
+    --fundo: rgb(11, 8, 29);
+    --cor-fonte-principal: antiquewhite;
+}
+
+body {
+    color: var(--cor-fonte-principal);
+    font-family: "Poor Story";
+    background-color: var(--fundo);
+    font-size: 16px;
+    font-weight: 400;
+}

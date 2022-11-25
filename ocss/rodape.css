@@ -1,0 +1,12 @@
+.rodape{
+    display: block;
+    text-align: center;
+   
+}
+.rodape__titulo{
+    font-size: 18px;
+    font-style: italic;
+    margin: 2em 0;
+    font-weight: 600;
+    
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smoke Genius</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+                <label for="menu">
+                    <span class="icone__menu icone"></span>
+                </label>
+                <ul class="lista__menu">
+                    <li class="lista__menu-item"><a href="#" class="lista__menu_link">Molotovs</a></li>
+                    <li class="lista__menu-item"><a href="#" class="lista__menu_link">Smokes</a></li>
+                    <li class="lista__menu-item"><a href="#" class="lista__menu_link">Upe seu vídeo</a></li>
+                </ul>
+        </div>
+        <div class="container">    
+            <a href="index.html"><img src="img/cslogo1.png" alt="Logo Página Inicial" class="cabecalho__imagem"></a>
+        </div>
+        <div class="container">
+            <a href="#" class="cabecalho__perfil">Login</a>    
+            <a href="" class="cabecalho__usuario"><img src="img/Usuário.svg" alt="Usuário"></a>
+        </div>
+    </header>
+    <main class="principal">
+        <h1 class="titulo__contato">Upe seu vídeo</h1>
+        <form class="formulario">
+            <label for="arquivo">Upe seu Arquivo de Vídeo</label>
+            <input type="file" id="arquivo" class="input__padrao">
+
+            <hr/>
+            
+            <label for="arquivo">Se preferir, apenas informe o link do vídeo</label>
+            <input type="url" placeholder="www.youtube.com.br/"id="arquivo" class="input__padrao">
+
+            <hr/>
+
+            <div class="mapas">
+                <fieldset>
+                    <legend class="mapas__texto">Qual mapa você está nos enviando?</legend>
+                        <select class="mapas__opcoes">
+                            <option value="dust">Dust 2</option>
+                            <option value="nuke">Nuke</option>
+                            <option value="overpass">Overpass</option>
+                            <option value="inferno">Inferno</option>
+                        </select>
+                 </fieldset>
+            </div>
+        
+            
+            <label for="enviar">Obrigado pelo apoio, agora é só enviar!</label>
+                <input type="submit" value="enviar" class="botao__enviar">
+            
+        </form>
+    </main>
